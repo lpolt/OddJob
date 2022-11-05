@@ -1,0 +1,22 @@
+{
+  "name": "usafe",
+  "version": "1.0.0",
+  "description": "Eth SF 2022 project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpolt/uSafe.git"
+  },
+  "author": "Luke Poltorak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpolt/uSafe/issues"
+  },
+  "homepage": "https://github.com/lpolt/uSafe#readme",
+  "devDependencies": {
+    "hardhat": "^2.12.2"
+  }
+}
