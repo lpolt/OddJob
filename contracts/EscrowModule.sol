@@ -10,8 +10,9 @@ import {Escrow} from '@openzeppelin/contracts/utils/escrow/Escrow.sol';
  * @title EscrowModule
  * @author 0x1uke.eth
  *
- * @notice This is a module that clones an escrow contract that is associated
- * with a Lens post and owned by the post creator.
+ * @notice This abstract contract adds a public `HUB` immutable to inheriting modules, as well as an
+ * `onlyHub` modifier. Also, this file is meant to be in the Lens core. David, I can show you the 
+ * branch I was woring on in the other repo later.
  */
 abstract contract EscrowModule is Escrow {
     address public immutable HUB;
